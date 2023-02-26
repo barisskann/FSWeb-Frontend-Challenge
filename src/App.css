@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  background-color: #f4f4f4;
+}
+.header {
+  margin-top: 9.5rem;
+}
+.header-content {
+  font-size: 2.7rem;
+  line-height: 4rem;
+  letter-spacing: 1;
+}
+.header-pos {
+  position: absolute;
+  top: 90px;
+  width: 148px;
+  height: 31px;
+  background-color: #e92577;
+  z-index: -1;
+  border-radius: 4px;
+}
+.header-mail {
+  font-weight: 400;
+  line-height: 2rem;
+  letter-spacing: 10%;
+  
+}
+
+.image-item {
+  border-top: 1.6rem solid rgb(47, 157, 174);
+  border-left: 1.3rem solid rgb(47, 157, 174);
+  border-radius: 3.5rem;
+}
+.info {
+  color: #ea2678;
+}
+.profile-item {
+  border-radius: 1rem;
+  background-color: white;
+  padding-bottom: 2rem;
+  border-right: 1rem solid rgba(82, 82, 82, 0.5);
+  border-bottom: 1rem solid rgba(82, 82, 82, 0.5);
+}
+.about {
+  position: absolute;
+  width: 90px;
+  height: 18px;
+  background-color: #82bbff;
+  border-radius: 4px;
+  z-index: -1;
+  top: 18px;
+}
+.footer {
+  position: absolute;
+  width: 275px;
+  height: 18px;
+  background-color: #82bbff;
+  top: 40px;
+  left: 120px;
+  z-index: -1;
+}
+.red{
+  color: red;
+}
+.dark-mode {
+  color: #fff;
+  background-color: #313843;
+}
